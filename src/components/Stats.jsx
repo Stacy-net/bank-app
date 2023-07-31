@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { stats } from '../constatnts';
+import { stats } from '../constants';
 import styles from '../style';
 
 const Stats = () => (

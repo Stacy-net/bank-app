@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { features } from '../constatnts';
+import { features } from '../constants';
 import styles, { layout } from '../style';
 import Button from './Button';
 import PropTypes from 'prop-types';

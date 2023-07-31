@@ -64,6 +64,10 @@
 	);
 }
 
+.hover\:filter-white:hover {
+  filter: brightness(0) invert(1); /* Змінює кольори на протилежні (білий на чорний) */
+}
+
 .bg-gray-gradient {
 	background: linear-gradient(
 		153.47deg,
