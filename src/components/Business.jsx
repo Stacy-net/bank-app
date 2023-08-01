@@ -5,6 +5,7 @@ import styles, { layout } from '../style';
 import Button from './Button';
 import PropTypes from 'prop-types';
 
+
 const FeaturedCard = ({ icon, title, content, index }) => (
 	<div
 		className={`flex flex-row p-6 rounded-[20px] ${
@@ -39,7 +40,7 @@ const Business = () => (
 				building credit, earning rewards and saving money. But with hundreds of
 				credit cards on the market.
 			</p>
-			<Button styles="mt-10" />
+			<Button styles={{ marginTop: '10' }} />
 		</div>
 		<div className={`${layout.sectionImg} flex-col`}>
 			{features.map((feature, index) => (
@@ -50,10 +51,13 @@ const Business = () => (
 );
 
 FeaturedCard.propTypes = {
-	icon: PropTypes.object.isRequired,
+	icon: PropTypes.string.isRequired,
 	content: PropTypes.object.isRequired,
 	title: PropTypes.object.isRequired,
 	index: PropTypes.object.isRequired,
+
 };
+
+
 
 export default Business;

@@ -14,7 +14,7 @@ const Button = ({ styles }) => {
 };
 
 Button.propTypes = {
-	styles: PropTypes.object.isRequired,
+	styles: PropTypes.object,
 };
 
 export default Button;
