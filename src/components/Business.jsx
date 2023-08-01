@@ -51,11 +51,10 @@ const Business = () => (
 );
 
 FeaturedCard.propTypes = {
-	icon: PropTypes.string.isRequired,
-	content: PropTypes.object.isRequired,
-	title: PropTypes.object.isRequired,
-	index: PropTypes.object.isRequired,
-
+  icon: PropTypes.string.isRequired, 
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 
