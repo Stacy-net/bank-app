@@ -65,7 +65,7 @@
 }
 
 .hover\:filter-white:hover {
-  filter: brightness(0) invert(1); /* Змінює кольори на протилежні (білий на чорний) */
+	filter: brightness(0) invert(1);
 }
 
 .bg-gray-gradient {
@@ -109,6 +109,21 @@
 		-webkit-transform: translateY(0);
 		transform: translateY(0);
 	}
+}
+@keyframes pulseAnimation {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.animation-pulse:hover {
+	animation: pulseAnimation 1s infinite;
 }
 
 .feature-card:hover {
